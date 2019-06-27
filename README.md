@@ -1,10 +1,24 @@
 # redteamwrangler.github.io
 Test
-<h1>Custom File Upload <span>With jQuery and CSS</span></h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="custom-file-upload">
-    <!--<label for="file">File: </label>--> 
-    <input type="file" id="file" name="myfiles[]" multiple />
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<p>See the <a href="https://codepen.io/wallaceerick/pen/ctsCz">Custom Select Menu</a> demo!</p>
+    <title>Upload Files</title>
+
+</head>
+
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="files[]" multiple>
+        <input type="submit" value="Upload File" name="submit">
+    </form>
+
+	<script src="upload.js"></script>
+</body>
+
+</html>
