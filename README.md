@@ -17,7 +17,7 @@ Test
         <input type="file" name="files[]" multiple>
         <input type="submit" value="Upload File" name="submit">
     </form>
-	<script src="upload.js"></script>
+	<script src="https://github.com/taniarascia/upload/blob/master/upload.js"></script>
 </body>
 
 </html>
